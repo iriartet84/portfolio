@@ -1,0 +1,33 @@
+{
+  "entries": [
+    {
+      "org": "Example Bank — Sample Division",
+      "role": "Summer Analyst (Example)",
+      "location": "City, Country",
+      "start": "2026-06",
+      "end": "2026-08",
+      "sector": "Investment Banking",
+      "summary": "Replace with a one-line summary of scope and impact.",
+      "bullets": [
+        "Replace with a specific, measurable achievement.",
+        "Replace with the tools/methods you used (e.g. Excel modelling, Bloomberg, Python).",
+        "Replace with an outcome, ideally quantified."
+      ],
+      "tags": ["Valuation", "Excel", "Pitch Decks"]
+    },
+    {
+      "org": "University Name",
+      "role": "BSc Economics",
+      "location": "City, Country",
+      "start": "2024-09",
+      "end": "2027-06",
+      "sector": "Education",
+      "summary": "Relevant coursework, thesis topic, or academic focus.",
+      "bullets": [
+        "Relevant modules or thesis topic.",
+        "Academic achievements, rank, or notable coursework projects."
+      ],
+      "tags": ["Econometrics", "Macroeconomics"]
+    }
+  ]
+}

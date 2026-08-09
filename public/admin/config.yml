@@ -1,0 +1,79 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Enables Netlify Identity widget login for the /admin panel.
+# After deploying, enable "Identity" + "Git Gateway" in Netlify site settings.
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "papers"
+    label: "Papers (PDF + metadata)"
+    folder: "content/papers"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options: ["academic", "reporting", "technical"]
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Tags", name: "tags", widget: "list", default: [] }
+      - { label: "Excerpt", name: "excerpt", widget: "text" }
+      - { label: "PDF file", name: "pdfUrl", widget: "file" }
+      - { label: "Co-authors", name: "coauthors", widget: "string", required: false }
+      - { label: "Publication / context", name: "publication", widget: "string", required: false }
+
+  - name: "reports"
+    label: "Investigative Reports (rich text)"
+    folder: "content/reports"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Tags", name: "tags", widget: "list", default: [] }
+      - { label: "Excerpt", name: "excerpt", widget: "text" }
+      - { label: "Cover image", name: "coverImage", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "projects"
+    label: "Projects"
+    folder: "content/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Sector", name: "sector", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", default: [] }
+      - { label: "Excerpt", name: "excerpt", widget: "text" }
+      - { label: "Cover image", name: "coverImage", widget: "image", required: false }
+      - { label: "Repo URL", name: "repoUrl", widget: "string", required: false }
+      - { label: "Live URL", name: "liveUrl", widget: "string", required: false }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "cv"
+    label: "Live CV"
+    files:
+      - name: "experience"
+        label: "Experience entries"
+        file: "content/cv/experience.json"
+        fields:
+          - name: "entries"
+            label: "Entries"
+            widget: "list"
+            fields:
+              - { label: "Organisation", name: "org", widget: "string" }
+              - { label: "Role", name: "role", widget: "string" }
+              - { label: "Location", name: "location", widget: "string", required: false }
+              - { label: "Start (YYYY-MM)", name: "start", widget: "string" }
+              - { label: "End (YYYY-MM or 'Present')", name: "end", widget: "string" }
+              - { label: "Sector", name: "sector", widget: "string" }
+              - { label: "Summary", name: "summary", widget: "text" }
+              - { label: "Bullets", name: "bullets", widget: "list" }
+              - { label: "Tags", name: "tags", widget: "list", required: false }
