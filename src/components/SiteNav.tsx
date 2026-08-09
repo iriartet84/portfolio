@@ -17,10 +17,10 @@ export default function SiteNav() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link href="/" className="group flex items-baseline gap-2">
           <span className="font-display text-lg font-semibold tracking-tight text-paper">
-            YOUR NAME
+            Toribio Iriarte Fernandez
           </span>
           <span className="mono text-[11px] text-muted transition-colors group-hover:text-signal">
-            ECON · IB · COMMODITIES
+            Macroeconomics · Finance · Commodities and Equity
           </span>
         </Link>
 
