@@ -5,7 +5,7 @@ import SiteFooter from "@/components/SiteFooter";
 import IdentityRedirect from "@/components/IdentityRedirect";
 
 export const metadata: Metadata = {
-  title: "Your Name — Economics | Investment Banking & Commodities",
+  title: "Toribio's Portfolio",
   description:
     "Papers, investigative reporting, technical projects, and live CV of an economics student pursuing investment banking and commodity trading.",
 };
