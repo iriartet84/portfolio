@@ -16,21 +16,20 @@ export default function Home() {
             <span className="text-signal">● LIVE</span>
             <span>{now.toLocaleDateString("en-GB", { day: "2-digit", month: "short", year: "numeric" }).toUpperCase()}</span>
             <span>·</span>
-            <span>HANNOVER, DE</span>
+            <span>Hamburg, DE</span>
             <span>·</span>
-            <span>OPEN TO: IB / COMMODITIES / TRADING</span>
+            <span>OPEN TO: Macroeconomics / Finance / Commodity Trading</span>
           </div>
 
           <h1 className="mt-6 max-w-3xl font-display text-4xl font-semibold leading-[1.08] tracking-tight sm:text-6xl">
-            Economics research, market writing, and code —
-            <span className="text-signal"> one running record.</span>
+            Macroeconomic research, commodities and equities, and geopolitics —
+            <span className="text-signal"> an online portfolio.</span>
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted sm:text-lg">
-            I'm an economics student building a track record in analysis before I have a
-            desk to sit at. This site is that record: academic papers, investigative
-            reporting, technical side-projects on trade and shipping, and a live CV —
-            updated as the work happens, not once a year.
+            I am a graduate economics student building a track record in analysis. This site is that record: academic papers, investigative
+            reporting, technical side-projects, and a live CV —
+            updated as the work happens.
           </p>
 
           <div className="mt-9 flex flex-wrap gap-3">
@@ -51,10 +50,10 @@ export default function Home() {
           {/* stat strip */}
           <div className="mono mt-14 grid grid-cols-2 gap-px overflow-hidden rounded-sm border border-line bg-line sm:grid-cols-4">
             {[
-              { label: "PAPERS & REPORTS", value: String(papers.length).padStart(2, "0") },
-              { label: "PROJECTS", value: String(projects.length).padStart(2, "0") },
+              { label: "PAPERS", value: String(papers.length).padStart(2, "0") },
+              { label: "ARTICLES", value: String(projects.length).padStart(2, "0") },
               { label: "ROLES LOGGED", value: String(cv.length).padStart(2, "0") },
-              { label: "SECTORS", value: "FIN / SHIP" },
+              { label: "SECTORS", value: "FINANCE/COMMODITIES" },
             ].map((stat) => (
               <div key={stat.label} className="bg-ink px-5 py-4">
                 <div className="text-2xl font-semibold text-paper">{stat.value}</div>
@@ -71,19 +70,19 @@ export default function Home() {
           <PreviewCard
             code="PPR"
             title="Papers & Reports"
-            desc="Academic papers, pro-bono investigative reporting, and technical write-ups — filterable by type."
+            desc="Academic papers, pro-bono investigative reporting, and technical write-ups."
             href="/papers"
           />
           <PreviewCard
             code="PRJ"
-            title="Projects"
-            desc="Finance and shipping side-projects: trade route visualizations, market tools, code experiments."
+            title="Articles"
+            desc="Finance and commodities side-projects: trade route visualizations, market tools, code experiments."
             href="/projects"
           />
           <PreviewCard
             code="CV"
             title="Live CV"
-            desc="Every role, expanded — scope, tools used, and measurable outcomes, not just a bullet list."
+            desc="Every role expanded beyond a one-page CV."
             href="/cv"
           />
         </div>
