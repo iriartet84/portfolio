@@ -1,7 +1,7 @@
 ---
 title: "Path Dependence and Growth: The Role of Oil in Developing Economies"
 category: academic
-date: 2026-08-11T15:51:49.728Z
+date: 2025-12-02T15:51:49.728Z
 tags:
   - Oil
   - Development
