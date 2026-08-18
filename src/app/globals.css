@@ -68,28 +68,3 @@ h1, h2, h3, h4 { font-family: var(--font-display); letter-spacing: -0.02em; }
 .prose-report ul, .prose-report ol { margin: 1em 0 1.25em 1.25em; }
 .prose-report li { margin-bottom: 0.4em; }
 .prose-report code { font-family: var(--font-mono); background: var(--panel-2); padding: 0.15em 0.4em; border-radius: 3px; font-size: 0.9em; }
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
