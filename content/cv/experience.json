@@ -84,16 +84,17 @@
       "end": "07-2025"
     },
     {
-      "org": "London Politica",
-      "role": "Program Director, Research Analyst",
-      "location": "London, United Kingdom (Remote)",
       "start": "2023-06",
-      "end": "2025-07",
+      "org": "London Politica",
       "sector": "Professional Experience",
       "summary": "I directed the Global Commodities Watch program at London Politica, the world's largest political risk advisory for clients such as the World Economic Forum, World Food Programme, Commerzbank and the International Chamber of Commerce. I led a team of eight analysts delivering investment-grade geopolitical risk research on oil, gas, uranium, and agricultural commodities to G20 ministries, global non-profits, and government agencies.\n\nMy role required me to produce client-tailored reports with forward-looking forecasts and scenario analyses, translating complex supply-chain and macroeconomic data into actionable trade strategies and policy insights. I authored flagship reports on BRICS expansion, EU-Mercosur dynamics, and European energy infrastructure (small modular reactors, smart electricity grids), contributing to policy debates on energy security and geopolitical stability.\n\nI directed research on the institutional and geopolitical constraints on industrial development in countries such as the DRC, Argentina, and Libya, translating cross-regional risk data into client-ready policy insights. I also produced geopolitical risk analysis for conflict-affected states in Africa, including Libya, the DRC, and Burkina Faso, contributing to Africa Watch reports on the humanitarian and development dimensions of food insecurity.\n\nAs a Research Analyst on the Africa Desk, I examined the intersection of conflict, governance, and development outcomes in fragile states, with a focus on the political economy of natural resources and the institutional constraints on inclusive growth. I assessed the drivers of food insecurity in Burkina Faso, linking armed conflict, infrastructure destruction, and agricultural collapse to broader questions of state fragility, humanitarian access, and long-term development prospects in the Sahel. I also contributed to analysis of the DRC's cobalt supply chain, examining how the concentration of finite cobalt reserves in a politically unstable region creates global supply chain risks and complicates the energy transition, while exacerbating local governance challenges and humanitarian vulnerabilities.\n\nI spearheaded cross-functional research across Europe, Latin America, North Africa, and the Middle East, coordinating with multilateral stakeholders and presenting findings to senior policymakers and central bank representatives. I used PowerBI to create analytics dashboards and presentations for stakeholders, ensuring that complex data was communicated clearly and effectively.",
-      "tags": [
+      "bullets": [
         "Geopolitical Risk Analysis",
-        "Commodity Markets",
+        "Commodity Markets"
+      ],
+      "location": "London, United Kingdom (Remote)",
+      "role": "Program Director, Research Analyst",
+      "tags": [
         "Scenario Analysis",
         "Stakeholder Management",
         "Cross-Functional Leadership",
@@ -102,19 +103,22 @@
         "Research Publication",
         "Africa Watch",
         "Fragile States"
-      ]
+      ],
+      "end": "2025-07"
     },
     {
-      "org": "European Commission",
-      "role": "Professional Experience",
-      "location": "Brussels, Belgium",
       "start": "2024-11",
-      "end": "2024-11",
+      "org": "European Commission",
       "sector": "Professional Experience",
       "summary": "I collaborated with an international team of four to design and pitch an agricultural reform targeting unsustainable farming practices in Cyprus, the EU's most water-stressed region. My role involved developing incentive-compatible economic mechanisms (tiered pricing, elasticity-based incentives, behavioural nudges) to encourage crop diversification and reduce irrigation demand.\n\nI quantified the impact of proposed measures: 20% evaporation reduction through artificial destratification and 33.5% through monomolecular films. I presented our findings and pilot design directly to European Commission and Cyprus representatives during a competitive conference pitch, demonstrating not only technical proficiency but also the ability to translate complex analysis into compelling, investor-ready narratives.\n\nThis experience taught me how to structure complex problems, build models under pressure, and communicate results clearly to senior decision-makers.",
-      "tags": [
+      "bullets": [
         "Policy Design",
-        "Economic Modelling",
+        "Economic Modelling"
+      ],
+      "location": "Brussels, Belgium",
+      "role": "Professional Experience",
+      "tags": [
+        "",
         "Price Mechanisms",
         "Behavioural Insights",
         "Public Speaking",
@@ -122,19 +126,21 @@
         "Quantification",
         "Presentation Skills",
         "Water Resource Economics"
-      ]
+      ],
+      "end": "2024-11"
     },
     {
-      "org": "United Nations Industrial Development Organization",
-      "role": "Intern",
-      "location": "Vienna, Austria",
       "start": "01-2020",
-      "end": "02-2020",
+      "org": "United Nations Industrial Development Organization",
       "sector": "Professional Experience",
       "summary": "I supported the Group of 77 Chair Annemarie Heuls in Vienna-based activities at UNIDO and the IAEA, focusing on energy security, nuclear safeguards, industrial development policy, and global financial architecture. I drafted high-level policy briefs and position papers that were circulated among 10+ member state representatives, and I liaised directly with delegates from Brazil, Angola, and Argentina on energy transition and emerging economy financing.\n\nI also participated in briefing sessions, presenting analysis on UN initiatives' impact on industrial expansion in developing countries. I managed data collection, drafting, and meeting coordination across 10+ member states, building the accountability and urgency required to deliver on tight multilateral timelines. This experience gave me hands-on exposure to multilateral negotiation, consensus-building, and diplomatic drafting.",
-      "tags": [
+      "bullets": [
         "Multilateral Diplomacy",
-        "Policy Drafting",
+        "Policy Drafting"
+      ],
+      "location": "Vienna, Austria",
+      "role": "Intern",
+      "tags": [
         "Energy Security",
         "Stakeholder Liaison",
         "Global Financial Architecture",
@@ -143,43 +149,49 @@
         "UNIDO",
         "IAEA",
         "Industrial Development"
-      ]
+      ],
+      "end": "02-2020"
     },
     {
-      "org": "Argentine Embassy",
-      "role": "Trade Intern",
-      "location": "Vienna, Austria",
       "start": "01-2020",
-      "end": "02-2020",
+      "org": "Argentine Embassy",
       "sector": "Professional Experience",
       "summary": "I served as a commodity trade intern for development, combining technical analysis with high-level drafting to support bilateral trade and investment promotion between Argentina and Austria, Slovenia, and Slovakia. I built comprehensive Excel databases tracking agricultural (soybeans, corn) and energy (oil, gas) trade flows, identifying and quantifying export opportunities through comparative advantage analysis and market gap identification, findings that were subsequently adopted by the embassy's trade promotion unit to target commercial outreach.\n\nI drafted macroeconomic outlook briefs and reports for investors with an emphasis on industrial policy and exchange rates, sourcing World Bank API data in R and Python to generate fiscal surveillance reports. I visualised trade and macroeconomic data through Power BI dashboards, presenting findings clearly and concisely across the energy, agriculture, and automotive sectors.\n\nI also acted as an intermediary connecting Argentine suppliers with local importers, facilitating business introductions and supporting bilateral trade negotiations. This experience taught me how to translate data into actionable commercial intelligence, manage client-facing relationships, and communicate findings effectively to decision-makers.",
-      "tags": [
+      "bullets": [
         "Trade Intelligence",
-        "Database Management",
+        "Database Management"
+      ],
+      "location": "Vienna, Austria",
+      "role": "Trade Intern",
+      "tags": [
         "Excel",
         "Commercial Analysis",
         "Client-Facing Communication",
         "Supply Chain",
         "Cross-Border Business",
         "Power BI"
-      ]
+      ],
+      "end": "02-2020"
     },
     {
-      "org": "Department of Quantitative Economics",
-      "role": "Teaching Assistant, Maastricht University",
-      "location": "Maastricht, The Netherlands",
       "start": "2024-09",
-      "end": "2024-12",
+      "org": "Department of Quantitative Economics",
       "sector": "Professional Experience",
       "summary": "I served as a Teaching Assistant for the Econometrics course at Maastricht University, supporting the course instructor in delivering lectures, conducting tutorial sessions, and grading assignments. My role required me to explain complex statistical and econometric concepts, including ordinary least squares, instrumental variables, panel data methods, and time-series analysis, to students with varying levels of quantitative preparation. I also held regular office hours, providing one-on-one support to students on problem sets and project work.",
+      "bullets": [
+        "Econometrics",
+        "Modelling"
+      ],
+      "location": "Maastricht, The Netherlands",
+      "role": "Teaching Assistant, Maastricht University",
       "tags": [
         "Teaching",
         "Mentorship",
         "Communication",
-        "Econometrics",
         "Statistical Methods",
         "Technical Communication"
-      ]
+      ],
+      "end": "2024-12"
     }
   ]
 }
