@@ -13,8 +13,7 @@ export default function CVPage() {
           <span className="mono text-[11px] text-signal">CV</span>
           <h1 className="mt-3 font-display text-3xl font-semibold sm:text-4xl">Live CV</h1>
           <p className="mt-3 max-w-xl text-sm leading-relaxed text-muted">
-            Every role, expanded. Click an entry for scope, tools, and outcomes — the
-            detail a one-page PDF can't hold.
+            An expanded and detailed description of each position, beyond a CV page limit.
           </p>
         </div>
         <a
